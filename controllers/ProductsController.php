@@ -46,12 +46,12 @@ class ProductsController
 		
 		if(App::get('database')->findById('products', $id) == null)
 		{
-			$response = ["message" => "Row {$id} not found."];
+			$response = ["error" => "Row {$id} not found."];
 			return jsonView($response);
 		}
 
 			$product = App::get('database')->delete('products', $id);
-			$response = ["error" => "Row {$id} deleted."];
+			$response = ["message" => "Row {$id} deleted."];
 
 
 		return jsonView($response);
