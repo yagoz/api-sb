@@ -62,8 +62,10 @@ También incluyo un archivo sql (database.sql) con el dump de la base de datos d
   `POST`
 
 **Parametros:**
+
+
 | Param Name | Param Description |
-| ------ | ------ |
+----------|:----------:|
 | Name | Nombre del producto - VARCHAR(45) |
 | Description | Descripción del producto -  VARCHAR(100) |
 | Size | Talle o talles del producto- VARCHAR(25) |
@@ -95,7 +97,7 @@ También incluyo un archivo sql (database.sql) con el dump de la base de datos d
 
 **Parametros:**
 | Param Name | Param Description |
-| ------ | ------ |
+----------|:----------:|
 | Name | Nombre del producto - VARCHAR(45) |
 | Description | Descripción del producto -  VARCHAR(100) |
 | Size | Talle o talles del producto- VARCHAR(25) |
