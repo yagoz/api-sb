@@ -96,6 +96,7 @@ También incluyo un archivo sql (database.sql) con el dump de la base de datos d
   `PUT`
 
 **Parametros:**
+
 | Param Name | Param Description |
 ----------|:----------:|
 | Name | Nombre del producto - VARCHAR(45) |
@@ -141,7 +142,7 @@ También incluyo un archivo sql (database.sql) con el dump de la base de datos d
   [![POST](https://i.imgur.com/mqmkGpA.png)](https://i.imgur.com/mqmkGpA.png)
 
 
-#IMPORTANTE
+##IMPORTANTE
 
 Para el correcto funcionamiento es necesario configurar apache con AllowOverride all , crear un .htaccess en la raiz del proyecto con la siguiente informacion
   ```
